@@ -46,7 +46,7 @@ namespace Techbodia_Test
             // Open the browser
             // Navigate to url
             driver.Navigate().GoToUrl("https://www.wikipedia.org/");
-            driver.Manage().Window.Maximize();
+            driver.Manage().Window.Maximize(); 
         }
         [Test]
         public void ExecuteTest()
